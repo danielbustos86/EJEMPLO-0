@@ -12,5 +12,10 @@ package ejemplo.git.pkg1;
 public class Persona {
     private String rut;
     private String nombre;
+
+    public Persona(String rut, String nombre) {
+        this.rut = rut;
+        this.nombre = nombre;
+    }
     
 }
